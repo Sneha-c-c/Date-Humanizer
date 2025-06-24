@@ -1,10 +1,27 @@
-# date-humanizer
+# 📦 date-humanizer
 
-Convert ISO or JS date strings to human-friendly formats.
+[![NPM version](https://img.shields.io/npm/v/@snehacc/date-humanizer.svg)](https://www.npmjs.com/package/@snehacc/date-humanizer)
+[![Downloads](https://img.shields.io/npm/dm/@snehacc/date-humanizer.svg)](https://www.npmjs.com/package/@snehacc/date-humanizer)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](./LICENSE)
 
-`2025-06-24` → `24 June 2025`
+> 🗓️ A lightweight npm package to convert dates into human-readable format  
+> Example: `2025-06-24` → `24 June 2025`
 
-## Install
+---
+
+## 📦 Installation
 
 ```bash
-npm install date-humanizer
+npm install @snehacc/date-humanizer
+
+## Usage
+
+const { toHumanDate } = require('@snehacc/date-humanizer');
+
+console.log(toHumanDate('2025-06-24')); // Output: 24 June 2025
+
+# Function
+
+toHumanDate(dateInput: string | Date): string
+
+
