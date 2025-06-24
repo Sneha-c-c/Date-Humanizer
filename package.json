@@ -1,0 +1,15 @@
+{
+  "name": "date-humanizer-by-sneha",
+  "version": "1.0.1",
+  "description": "A simple utility to convert ISO/JS date to human-readable form",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "date",
+    "formatter"
+  ],
+  "author": "Sneha C C",
+  "license": "MIT"
+}
